@@ -1,0 +1,85 @@
+/* zvjezdica je univerzalni selektor - to znači da se stilovi rimjenjuju na sve elemente*/
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+/* element selektor */
+h3{
+    color: brown;
+    background-color: rgb(182, 188, 193);
+}
+
+h4{
+    color: #8384de;
+}
+
+p{
+    font-weight: 300;
+    font-size: 2rem;  /* za veličinu fonta koristiti brojeve i rem ili px */
+    font-stretch: expanded;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(202, 222, 221);
+    text-align: center;
+}
+
+/* selektor klase - uvijek ispred mora biti točka */
+.naslov {
+    color: rgb(18, 158, 163);
+}
+
+.rgb {
+    color: rgb(52, 84, 30);
+}
+
+.amet{
+    background-color: aquamarine;
+    color: blue;
+}
+
+/* selektor id - uvijek ispred mora biti # */
+#Naslov1 {
+    color: chocolate;
+}
+
+
+
+/* ZADATAK ZA VJEŽBU */
+.podnaslov{
+    color: black;
+}
+.crvena{
+    color: #cc0000;
+}
+.crvenikvadrat{
+    width: 200px;
+    height: 200px;
+    background-color: #cc0000;
+}
+
+
+.plava{
+    color: #3000cc;
+}
+.plavikvadrat{
+    width: 200px;
+    height: 200px;
+    background-color: #3000cc;
+}
+
+.narančasta{
+    color: #f58f0a;
+}
+
+.narančastikvadrat{
+    width: 200px;
+    height: 200px;
+    background-color: #f58f0a;
+}
