@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadaca5</title>
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: auto;
+    padding: 2rem;
+}
+
+
+.title {
+    grid-column: span 2;
+    background-color: #0933dd;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.section-box {
+    grid-column: span 2;
+    background-color: #4476db;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slika {
+    background-color: rgb(19, 21, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slika img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.recept {
+    background-color: rgb(115, 179, 243);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recept h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.recept strong {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.recept ul,
+.recept ol {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.recept li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .section-box {
+        font-size: 1.2rem;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="container">
+<div class="item title"><h1>BAKINA KUHINJA</h1></div>
+
+<div class="section-box">PPREDJELO</div>
+
+<div class="item slika">
+  <img src="https://www.spar.hr/content/dam/sparhrwebsite/dobar-tek/riznica/1330x900/shutterstock-293821043.jpg/_jcr_content/renditions/responsive.665.450.noborder.16ee6f9b3b11cc7c.jpg" width="545" alt="Bakina juha">
+</div>
+
+<div class="item recept">
+  <h2><strong>BAKINA JUHA</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Piletina</li><br>
+    <li>Povrće za juhu <em>(mrkva, peršin, luk, celer)</em></li><br>
+    <li>Rezanci</li><br>
+    <li>Začini <em>(sol, papar, vegeta)</em></li>
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>Na štednjak stavite vodu u lonac po želji.</li>
+    <li>Stavite piletinu u hladnu vodu koju ste prethodno ulili u lonac i stavite sol i papar.</li>
+    <li>Kada voda zakuha stavite gore navedeno povrće <em>(preporučljivo je luk malo prepeći na štednjaku)</em>.</li>
+    <li>Na laganoj vatri kuhajte juhu 45 minuta.</li>
+    <li>Nakon toga ubacite rezance <em>(ovisno o količini juhe koju kuhate)</em>, dodajte također i rezance te list peršina.</li>
+    <li>Huhajte još 2-3 minute, da se rezanci skuhaju.</li>
+    <li>Vaša juha je gotova. Dobar tek!</li>
+  </ol>
+</div>
+
+<div class="section-box">GLAVNA JELA</div>
+
+<div class="item slika">
+  <img src="https://www.maggi.hr/sites/default/files/srh_recipes/341016da2aa4663d365aecceab6321f2.jpeg" alt="Sarma">
+</div>
+
+<div class="item recept">
+  <h2><strong>SARMA</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Kiseli kupus <em>(probajte kupus, ako je preslan, možete ga isprati pod hladnom vodom)</em></li><br>
+    <li>Mljeveno meso <em>(svinjetina 50%, junetina 50%)</em></li><br>
+    <li>Crveni luk</li><br>
+    <li>Slanina</li><br>
+    <li>Riža</li><br>
+    <li>Jaje</li><br>
+    <li>Začini <em>(sol, papar, slatka i ljuta crvena paprika)</em></li><br>
+    <li>Lovorov list</li>
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>Prepržite luk i slaninu i crveni luk na svinjskoj masti.</li>
+    <li>Pomiješajte mljeveno meso, začine, rižu, ohlađeni crveni luk i slaninu i jaja.</li>
+    <li>Uzmite list kupisa, stavite mješavinu mesa, začina i dodataka te čvrsto zamotajte.</li>
+    <li>Sarmu slažite u duboki lonac u koji ste prethodno na dno poslagali narezeni kiseli kupus kao podlogu.</li>
+    <li>Između sarmi stavite narezanu slaninu i ulite vodu te kuhajte na laganoj vatri 2h.</li>
+    <li>Nakon 2h napravite zapršku i stavite u sarmu.</li>
+    <li>Nakon toga kuhajte još pola sata i vaša sarma je gotova. Dobar tek!</li>
+  </ol>
+</div>
+
+<div class="item slika">
+  <img src="https://www.vecernji.hr/media/img/2d/76/638e612bff34a63a5f07.jpeg" alt="Pire krumpir">
+</div>
+
+<div class="item recept">
+  <h2><strong>PIRE KRUMPIR</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>3-4 Veća krumpira</li><br>
+    <li>Sol</li><br>
+    <li>Mlijeko</li><br>
+    <li>Maslac</li>
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>Ogulite krumpir, a dok gulite krumpir stavite vodu da se kuha.</li>
+    <li>Stavite krumpir u kipuću i zasoljenu vodu.</li>
+    <li>Kuhajte 20-ak minuta <em>(ovisi o veličini krumpira)</em>.</li>
+    <li>Vodu procijedite, dodajte malo maslaca i mlijeka te dodajte još malo soli.</li>
+    <li>Izmiksajte sve sastojke i krumpir kako bi se povezali, a krumpir dobio prozračnu teksturu. Dobar tek!</li>
+  </ol>
+</div>
+
+<div class="item slika">
+  <img src="https://putnikofer.hr/wp-content/uploads/2024/02/pohana-piletina-iz-pecnice.jpg" alt="Pohana piletina">
+</div>
+
+<div class="item recept">
+  <h2><strong>POHANA PILETINA</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Pileća prsa</li><br>
+    <li>Brašno</li><br>
+    <li>Jaje</li><br>
+    <li>Prezle <em>(krušne mrvice)</em></li><br>
+    <li>Začini <em>(sol, papar i po želji crvena začinska paprika)</em></li><br>
+    <li>Svinjska mast ili biljno ulje</li>
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>Obložite prethodno začinjena pileća prsa prvo brašnom, zatim jajima i za kraj prezlama.</li>
+    <li>Zagrijte tavu s uljem ili svinjskom masti i položite prsa da se peku.</li>
+    <li>Pecite do zlatno žute boje i nakon toga sklonite sa štednjaka. Dobar tek!</li>
+  </ol>
+</div>
+
+<div class="section-box">DESERT</div>
+
+<div class="item slika">
+  <img src="https://gastro.24sata.hr/media/img/76/7b/e024e0e59a17132d8c0a.jpeg" alt="Mađarica">
+</div>
+
+<div class="item recept">
+  <h2><strong>MAĐARICA</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Brašno</li><br>
+    <li>Šećer</li><br>
+    <li>Maslac</li><br>
+    <li>Jaja</li><br>
+    <li>Vanilin šećer</li><br>
+    <li>Žlica kakaa</li><br>
+    <li>Mljeveni orasi</li><br>
+    <li>Čokolada <em>(za glazuru)</em></li>
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>Pomiješajte brašno, šećer, vanilu, kakao i orahe te dodajte maslac, jaja i malo hladne vode.</li>
+    <li>Dok razvijate kore, upalite pećnicu na 180°.</li>
+    <li>Kore pecite dok ne dobiju zlatno-žutu boju.</li>
+    <li>Kore nafilajte sa smjesom koju ste pretkodno napravili.</li>
+    <li>Preko toga, premažite čokoladom, a potom stavite u hladnjak.</li>
+    <li>Nakon toga, Mađarica je spremna za kušanje. Dobar tek!</li>
+  </ol>
+</div>
+
+<div class="item slika">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1DoDtcXpSCS9b1VEy7foVhwzG_Hp0zemUMg&s" alt="Paunovo oko">
+</div>
+
+<div class="item recept">
+  <h2><strong>PAUNOVO OKO</strong></h2>
+  <strong>SASTOJCI:</strong>
+  <ul type="square">
+    <li>Brašno</li><br>
+    <li>Maslac</li><br>
+    <li>Šećer u prahu</li><br>
+    <li>Jaja</li><br>
+    <li>Čokolada za kuhanje</li><br>
+    <li>Kakao</li><br>
+    <li>Soda bikarbona</li><br>
+    <li>Mlijeko</li>
+  </ul>
+  <strong>UPUTE:</strong>
+  <ol>
+    <li>Pomiješajte brašno, maslac, šećer i žumanjak i izlite u veliku tepsiju. <em>(pecite na 180°C 25 minuta)</em></li>
+    <li>Krema se radi od mlijeka, brašna, šećera i jaja <em>(na pari)</em></li>
+    <li>Kada je krema gotova, podijeli se na dva dijela. Jedna je polovica bez dodataka, a u drugu polovicu kreme treba dodati kakao.</li>
+    <li>Na ohlaženi biskvit treba prvo namazati žutu kremu, a nakon toga drugu kremu s kakaom u sebi.</li>
+    <li>Kada ste namazali kremu, zarolate biskvit i ostavite da se hladi.</li>
+    <li>Nakon toga je spreman za jelo. Dobar tek!</li>
+  </ol>
+</div>
+</div>
+
+
+</body>
+</html>
