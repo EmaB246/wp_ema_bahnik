@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vježba</title>
+
+    <style>
+        /* zastava Nizozemske */
+    div{
+        width: 450px;
+        height: 90px;
+    }
+
+    .red{
+        background-color: red;
+    }
+
+    .white{
+        background-color: white;
+    }
+
+    .blue{
+        background-color: blue;
+    }
+
+    /* box model */
+    .okvir{
+        width: 300px;
+        height: 200px;
+        margin: 40px;
+        padding: 50px;
+        border: 20px, solid; 
+        box-shadow: 15px 15px 10px 5px; color: black; 
+        background-color: bisque;
+        text-align: center;
+    }
+
+    /* Zastava italije */
+
+    .zelena{
+        background-color: green;
+    }
+
+    .bijela{
+        background-color: white;
+    }
+
+    .crvena{
+        background-color: red;
+    }
+
+    /* Klase i ID */
+    
+    .input-field{
+        border: 2px solid pink;
+        padding: 5px;
+        margin: 10px 0;
+    }
+
+    #special-input{
+        border: 2px solid orange;
+        background-color: rgb(179, 112, 112);
+    }
+    
+    /* CSS Grid */
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 300px;
+        margin: 20px;
+    }
+
+    .grid div{
+        background-color: rgb(162, 233, 233);
+        text-align: center;
+        padding: 20px;
+        border: 1px solid black;
+    }
+
+
+</style>
+
+</head>
+<body>
+    <h2>Zastava Nizozemske</h2>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="blue"></div>  
+    
+    <br>
+
+    <h2>Box model</h2>
+    <div class="okvir">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    At esse a soluta aspernatur culpa ipsam? Sit ab iure blanditiis libero at 
+    fugiat debitis ut laboriosam recusandae officia ad, voluptatibus deleniti! 
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus dicta, vero, 
+    saepe ullam, asperiores impedit corrupti deleniti nisi voluptatum aut voluptate 
+    culpa eum? Blanditiis illum incidunt accusamus tempore hic temporibus.</div>
+
+    <br>
+
+    <h2>Zastava Italije</h2>
+    <div class="zelena"></div>
+    <div class="bijela"></div>
+    <div class="crvena"></div>
+
+    <br>
+
+    <h2>Klasa i ID</h2>
+    <form>
+        <input type="text" class="input-field" placeholder="unesi ime">
+        <input type="text" id="special-input" class="input-field" placeholder="unesi prezime">
+    </form>
+
+    <br>
+
+    <h3>CSS Grid</h3>
+    <div class="grid">
+        <div class="jedan">hrvatski</div>
+        <div class="dva">matematika</div>
+        <div class="tri">priroda</div>
+        <div class="cetiri">glazbeni</div>
+        <div class="pet">likovni</div>
+        <div class="sest">vjeronauk</div>
+        <div class="sedam">fizika</div>
+        <div class="osam">kemija</div>
+        <div class="devet">engleski</div>
+    </div>
+
+    <br>
+
+    
+    <script src="vježba.js"></script>
+</body>
+</html>
