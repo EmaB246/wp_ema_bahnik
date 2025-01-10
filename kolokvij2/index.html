@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drugi kolokvij</title>
+
+    <!-- prvi zadatak - zastava Nizozemske -->
+    <style>
+        div{
+            width: 450px;
+            height: 90px;
+        }
+
+        .crvena{
+            background-color: red;
+        }
+
+        .bijela{
+            background-color: white;
+        }
+
+        .plava{
+            background-color: blue;
+        }
+
+        /* box model */
+
+        .okvir{
+            width: 200px;
+            height: 300px;
+            margin: 40px;
+            padding: 30px;
+            box-shadow: 10px 10px 5px 5px;
+            border: 10px solid black;
+            background-color: antiquewhite;
+            text-align: center;
+        }
+
+        /* treći zadatak - Klasa i ID */
+
+        .input-field{
+            border: 2px solid palevioletred;
+            padding: 5px;
+            margin: 10px 0;
+            background-color: blanchedalmond;
+        }
+
+        #special-input{
+            border: 2px solid orange;
+            background-color: aqua;
+        }
+
+        /* četvrti zadatak - CSS Grid */
+
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 30px;
+            margin: 10px;
+        }
+
+        .grid div{
+            text-align: center;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        .jedan{
+            background-color: aliceblue;
+        }
+
+        .dva{
+            background-color: aqua;
+        }
+        
+        .tri{
+            background-color: bisque;
+        }
+
+        .cetiri{
+            background-color: rgb(131, 131, 200);
+        }
+
+        .pet{
+            background-color: rgb(228, 211, 245);
+        }
+
+        .sest{
+            background-color: rgb(210, 108, 108);
+        }
+
+        .sedam{
+            background-color: cadetblue;
+        }
+
+        .osam{
+            background-color: rgb(167, 207, 127);
+        }
+
+        .devet{
+            background-color: coral;
+        }
+
+    </style>
+
+</head>
+<body>
+ 
+    <!-- prvi zadatak - zastava Nizozemske -->
+
+    <h2>Zastava Nizozemske</h2>
+    <br>
+    <div class="crvena"></div>
+    <div class="bijela"></div>
+    <div class="plava"></div>
+
+    <br>
+
+    <!-- drugi zadatak - box model -->
+     <h2>Box model</h2>
+     <br>
+     <div class="okvir">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Veniam alias enim eos voluptatibus in culpa architecto 
+        libero perspiciatis assumenda deleniti aspernatur reprehenderit, 
+        voluptate sint quos debitis? Ducimus pariatur rerum architecto? 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima 
+        ratione minus non necessitatibus esse repellat maxime, doloremque 
+        maiores inventore eius, quia repellendus eum eligendi a itaque ipsa 
+        eos! Quibusdam, suscipit?
+     </div>
+
+    <br>
+
+    <!-- treći zadatak - klasa i ID -->
+     <h2>Klasa i ID</h2>
+     <form>
+        <input type="text" class="input-field" placeholder="Unesite svoje ime...">
+        <input type="text" id="special-input" class="input-field" placeholder="Unesite svoje prezime...">
+     </form>
+
+    <!-- četvrti zadatak - CSS Grid -->
+
+    <h2>CSS Grid</h2>
+     <div class="grid">
+        <div class="jedan">Hrvatski</div>
+        <div class="dva">Engleski</div>
+        <div class="tri">Njemački</div>
+        <div class="cetiri">Talijanski</div>
+        <div class="pet">Švedski</div>
+        <div class="sest">Rumunjski</div>
+        <div class="sedam">Kineski</div>
+        <div class="osam">Korejski</div>
+        <div class="devet">Grčki</div>
+     </div>
+
+     <!-- peti zadatak - JAVA Script -->
+
+    <br>
+    <script src="kolokvij2.js"></script>
+</body>
+</html>
